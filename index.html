@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amavi Royal | AI-First Design Lab</title>
+    <meta name="description" content="Exclusive AI-first platform for bespoke 20cm x 20cm family crests and high-end artisanal jewellery.">
+    <meta property="og:title" content="Amavi Royal | AI-First Design Lab">
+    <meta property="og:description" content="Blending ancestral heritage with generative mathematical precision.">
+    <meta property="og:type" content="website">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Inter:wght@200;300;400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --sovereign-purple: #2d0a4e;
+            --pure-white: #ffffff;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--sovereign-purple);
+            color: var(--pure-white);
+            margin: 0;
+            overflow-x: hidden;
+            scroll-behavior: smooth;
+        }
+        h1, h2, h3, h4, .font-display {
+            font-family: 'Cinzel', serif;
+            letter-spacing: 0.15em;
+        }
+        .bg-sovereign {
+            background-color: var(--sovereign-purple);
+        }
+        .bg-pure-white {
+            background-color: var(--pure-white);
+        }
+        .text-sovereign {
+            color: var(--sovereign-purple);
+        }
+        /* Custom scrollbar */
+        ::-webkit-scrollbar {
+            width: 6px;
+        }
+        ::-webkit-scrollbar-track {
+            background: var(--sovereign-purple);
+        }
+        ::-webkit-scrollbar-thumb {
+            background: var(--pure-white);
+            border-radius: 10px;
+        }
+        .royal-shadow {
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+        }
+        .filament-border {
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        .glass-purple {
+            background: rgba(45, 10, 78, 0.8);
+            backdrop-filter: blur(12px);
+        }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "@google/genai": "https://esm.sh/@google/genai@^1.34.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3"
+  }
+}
+</script>
+</head>
+<body class="bg-sovereign">
+    <div id="root"></div>
+</body>
+</html>
